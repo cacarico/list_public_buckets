@@ -1,0 +1,12 @@
+[package]
+name = "public_buckets"
+version = "0.1.0"
+authors = ["caio.teixeira <caio.teixeira@aroundhome.de>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+rusoto_core = "0.46"
+rusoto_s3 = "0.46"
+tokio = { version = "1", features = ["full"] }
